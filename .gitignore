@@ -1,0 +1,5 @@
+﻿# Local browser verification artifacts
+.*-profile/
+preview-*.png
+reference-*.png
+reference-source.html
