@@ -1,0 +1,8 @@
+# Netlify Redirects
+# Fallback rewrite: If an image is requested under /images/ but only exists at root, serve it from root
+/images/*  /:splat  200
+
+# Fallback rewrite: If an image is requested at root but exists under /images/, serve it from /images/
+/*.jpg     /images/:splat.jpg  200
+/*.jpeg    /images/:splat.jpeg 200
+/*.png     /images/:splat.png  200
