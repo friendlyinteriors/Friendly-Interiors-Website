@@ -111,7 +111,7 @@ function buildWhatsAppUrl(form) {
     `Preferred timing: ${read('timing') || 'To discuss'}`,
     `My vision: ${read('vision') || 'I would like to explore ideas with your team.'}`
   ].join('\n');
-  return `https://wa.me/254763507911?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/254724507910?text=${encodeURIComponent(message)}`;
 }
 
 const projectForm = document.querySelector('#project-form');
